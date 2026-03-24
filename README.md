@@ -2,7 +2,7 @@
 
 ### Evaluating LLM-as-a-Judge for French Medical Open-Ended QA
 
-📄 Paper: [Who Judges the Judge? Evaluating LLM-as-a-Judge for French Medical OEQA](https://arxiv.org/abs/2603.04033)
+📄 [Paper](https://aclanthology.org/2026.healing-1.12/)
 
 ---
 
