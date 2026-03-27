@@ -6,7 +6,7 @@
 
 ---
 
-### Models :
+### Models 🤗
  * [Phi-sft](https://huggingface.co/ik-ram28/phi-judge-sft)
  * [Phi-sft+grpo](https://aclanthology.org/2026.healing-1.12/) 
 
