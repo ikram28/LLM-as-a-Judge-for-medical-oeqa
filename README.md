@@ -6,6 +6,10 @@
 
 ---
 
+### Models :
+ * [Phi-sft](https://huggingface.co/ik-ram28/phi-judge-sft)
+ * [Phi-sft+grpo](https://aclanthology.org/2026.healing-1.12/) 
+
 ## 🔍 Overview
 
 Evaluating open-ended medical question answering (OEQA) is difficult because it requires expert judgment rather than simple lexical matching. This project investigates whether **Large Language Models (LLMs)** can act as reliable evaluators (*LLM-as-a-Judge*) for **French medical QA**.
