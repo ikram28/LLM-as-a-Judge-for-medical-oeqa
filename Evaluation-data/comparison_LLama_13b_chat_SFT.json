@@ -1,0 +1,802 @@
+[
+  {
+    "id": 228402061,
+    "Question": "Quels sont éléments de gravité au moment de l’arrivée du patient ?\n\nContexte : Homme, 58 ans, majoration de dyspnée chez un BPCO connu depuis 20 ans.\n\n Examen d’entrée : \n Constantes :\n - FC = 130bpm\n - PA = 130/80 aux deux bras\n - FR = 40/min\n - SpO2 = 80%\n - T = 38 ,5°C\n Tirage sus-sternal\n Cyanose\n Sueurs\n Auscultation : \n - Ronchi bilatéraux et sibilants\n - Tympanisme bilatéral\n Hépatomégalie douloureuse\n Reflux hépato-jugulaire\n Turgescence jugulaire\n Hippocratisme digital\n Cyanose unguéale\n \n ATCD \n Fumeur (80 PA)\n BPCO\n \n Traitement habituel\n β2 mimétiques \n \n HDM : depuis 1 semaine : ne peut plus fumer, expectorations sales \n \n 1h après, malgré le traitement initial, patient tient des propos incohérents et désorienté.",
+    "verite_terrain": "FC>125bpm\n Terrain : ATCD de BPCO, insuffisance respiratoire chronique (hippocratisme digital)\n Signes de détresse respiratoire avec hypoxie et hypercapnie :\n - SpO2<90%\n - FR>30/min\n - Sueurs\n - Cyanose\n - Tirage\n Signes d’insuffisance droite\n - Hépatomégalie douloureuse\n - Reflux\n - Turgescence",
+    "LLama_13b_chat_SFT": "Les éléments de gravité incluent une fréquence cardiaque élevée, une tachycardie, une cyanose, une hépatomégalie douloureuse, et des signes de désorientation.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402062,
+    "Question": "Caractérisez en une phrase le  tableau syndromique de ce patient. Quelles en sont les principales causes (4 max) ?\n\nContexte : Homme, 58 ans, majoration de dyspnée chez un BPCO connu depuis 20 ans.\n\n Examen d’entrée : \n Constantes :\n - FC = 130bpm\n - PA = 130/80 aux deux bras\n - FR = 40/min\n - SpO2 = 80%\n - T = 38 ,5°C\n Tirage sus-sternal\n Cyanose\n Sueurs\n Auscultation : \n - Ronchi bilatéraux et sibilants\n - Tympanisme bilatéral\n Hépatomégalie douloureuse\n Reflux hépato-jugulaire\n Turgescence jugulaire\n Hippocratisme digital\n Cyanose unguéale\n \n ATCD \n Fumeur (80 PA)\n BPCO\n \n Traitement habituel\n β2 mimétiques \n \n HDM : depuis 1 semaine : ne peut plus fumer, expectorations sales \n \n 1h après, malgré le traitement initial, patient tient des propos incohérents et désorienté.",
+    "verite_terrain": "Insuffisance respiratoire aiguë / exacerbation de BPCO\n Causes \n - Infection respiratoire bactérienne (H. influenzae, pneumocoque, M. catarrhalis)\n - Infection respiratoire virale\n - Cause environnementale (pollution…)",
+    "LLama_13b_chat_SFT": "Le tableau syndromique inclut une dyspnée aiguë, une majoration de la dyspnée, des expectorations sales, et une désorientation mentale.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402063,
+    "Question": "Quelle est l'explication la plus probable de l’incohérence du patient au bout d’une heure ?\n\nContexte : Homme, 58 ans, majoration de dyspnée chez un BPCO connu depuis 20 ans.\n\n Examen d’entrée : \n Constantes :\n - FC = 130bpm\n - PA = 130/80 aux deux bras\n - FR = 40/min\n - SpO2 = 80%\n - T = 38 ,5°C\n Tirage sus-sternal\n Cyanose\n Sueurs\n Auscultation : \n - Ronchi bilatéraux et sibilants\n - Tympanisme bilatéral\n Hépatomégalie douloureuse\n Reflux hépato-jugulaire\n Turgescence jugulaire\n Hippocratisme digital\n Cyanose unguéale\n \n ATCD \n Fumeur (80 PA)\n BPCO\n \n Traitement habituel\n β2 mimétiques \n \n HDM : depuis 1 semaine : ne peut plus fumer, expectorations sales \n \n 1h après, malgré le traitement initial, patient tient des propos incohérents et désorienté.",
+    "verite_terrain": "Signes d’hypercapnie, pas d’effet du traitement instauré.",
+    "LLama_13b_chat_SFT": "L'incohérence peut être due à une intoxication par des substances psychoactives, à une réaction médicamenteuse ou à une confusion mentale due à une maladie sous-jacente.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402064,
+    "Question": "Où le patient doit-il être hospitalisé ?\n\nContexte : Homme, 58 ans, majoration de dyspnée chez un BPCO connu depuis 20 ans.\n\n Examen d’entrée : \n Constantes :\n - FC = 130bpm\n - PA = 130/80 aux deux bras\n - FR = 40/min\n - SpO2 = 80%\n - T = 38 ,5°C\n Tirage sus-sternal\n Cyanose\n Sueurs\n Auscultation : \n - Ronchi bilatéraux et sibilants\n - Tympanisme bilatéral\n Hépatomégalie douloureuse\n Reflux hépato-jugulaire\n Turgescence jugulaire\n Hippocratisme digital\n Cyanose unguéale\n \n ATCD \n Fumeur (80 PA)\n BPCO\n \n Traitement habituel\n β2 mimétiques \n \n HDM : depuis 1 semaine : ne peut plus fumer, expectorations sales \n \n 1h après, malgré le traitement initial, patient tient des propos incohérents et désorienté.",
+    "verite_terrain": "En réanimation, car pas de réponse au traitement initial.",
+    "LLama_13b_chat_SFT": "Le patient doit être hospitalisé en unité de soins intensifs ou en service de réanimation.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402065,
+    "Question": "Quelle substance a-t-il prise ce soir ? Quels signes cliniques peuvent vous orienter ?\n\nContexte : M. Shoot, 30 ans.\n Agitation à la sortie d’une boîte de nuit, amené par les pompiers.\n Son amie rapporte qu’il aime « bien s’amuser » en prenant de l’héroïne ou de la cocaïne",
+    "verite_terrain": "Cocaïne, qui donne un état d’agitation.\n Signes cliniques\n - HTA\n - Tachycardie\n - Mydriase\n - Agitation\n - Convulsions\n - Fièvre\n - Sueurs\n - Hyperglycémie\n - Trouble du rythme à l’ECG",
+    "LLama_13b_chat_SFT": "L'héroïne et la cocaïne peuvent provoquer des effets psychotropes, notamment des hallucinations et des troubles de l'humeur.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402066,
+    "Question": "Que recherchez-vous à l’examen clinique pour trouver l’étiologie d’une fièvre chez un toxicomane\n\nContexte : M. Shoot, 30 ans.\n Agitation à la sortie d’une boîte de nuit, amené par les pompiers.\n Son amie rapporte qu’il aime « bien s’amuser » en prenant de l’héroïne ou de la cocaïne.\n Voici ses paramètres vitaux :\n - PA 180/110\n - FC 130\n - T 39.5\n - FR 25\n - SpO2 96%",
+    "verite_terrain": "Recherche de signes d’infection : \n - Points d’injection \n - Signes de localisation neurologique\n - Signes d’infection respiratoire (foyer auscultatoire)\n - Recherche d’un souffle  au cœur. \n Demande d’examens complémentaires : hémocultures, radio thoracique, scanner cérébral si signe de localisation",
+    "LLama_13b_chat_SFT": "Search for signs of intoxication, agitation, and altered mental status.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402067,
+    "Question": "Que lui répondez-vous ?\n\nContexte : M. Shoot, 30 ans.\n Agitation à la sortie d’une boîte de nuit, amené par les pompiers.\n Son amie rapporte qu’il aime « bien s’amuser » en prenant de l’héroïne ou de la cocaïne.\n Voici ses paramètres vitaux :\n - PA 180/110\n - FC 130\n - T 39.5\n - FR 25\n - SpO2 96%. Quelques heures     après son arrivée, M. Shoot présente des vomissements incoercibles puis un épisode de convulsions. Son amie, inquiète et étudiante en médecine, vous demande quelles sont vos hypothèses diagnostiques.",
+    "verite_terrain": "Intoxication à la cocaïne",
+    "LLama_13b_chat_SFT": "Les hypothèses diagnostiques incluent une intoxication par des substances comme l'héroïne ou la cocaïne, ainsi qu'une défaillance d'organes comme un arrêt cardiaque ou une insuffisance respiratoire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402068,
+    "Question": "Quels sont les éléments de gravité à rechercher à l’interrogatoire ?\n\nContexte : Mme Barbie, 72 ans\n Percutée par un bus alors qu’elle était à Vélib’\n Pas de casque, pour ne pas abîmer son brushing\n A son arrivée aux urgences :\n - Trauma crânien\n - Plaie au coir chevelu\n - Impotence fonctionnelle coude gauche",
+    "verite_terrain": "Prise d’anticoagulant\n Age > 60 ans\n Pas de port du casque\n AVP\n Amnésie post-traumatique de plus de 30 min\n Déficit localisé ou signe d’HTIC",
+    "LLama_13b_chat_SFT": "Les éléments de gravité à rechercher incluent la gravité des traumatismes crâniens, l'impotence fonctionnelle, et les signes de détresse vitale.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402069,
+    "Question": "Que recherchez-vous à l’examen neurologique ?\n\nContexte : Mme Barbie, 72 ans\n Percutée par un bus alors qu’elle était à Vélib’\n Pas de casque, pour ne pas abîmer son brushing\n A son arrivée aux urgences :\n - Trauma crânien\n - Plaie au coir chevelu\n - Impotence fonctionnelle coude gauche. Alors que vous suturez sa paie, Mme Barbie se plaint de céphalées, cervicalgies, présente une somnolence.\n Paramètres vitaux :\n GSC = 12\n TA = 90/52\n FC = 95\n T = 37,5°C\n SpO2 = 98%\n FR = 21",
+    "verite_terrain": "Patiente présente des signes d’HTIC\n Signes déficitaires neurologiques (engagement, lésion cérébrale ?)\n Fracture de la boîte crânienne",
+    "LLama_13b_chat_SFT": "Vérification de la conscience, évaluation des réflexes, et recherche d'autres signes de traumatisme crânien.",
+    "equivalence": "Oui",
+    "preference": "Réponse générée 2"
+  },
+  {
+    "id": 228402070,
+    "Question": "Quels examens d’imagerie demander, que rechercher ?\n\nContexte : Mme Barbie, 72 ans\n Percutée par un bus alors qu’elle était à Vélib’\n Pas de casque, pour ne pas abîmer son brushing\n A son arrivée aux urgences :\n - Trauma crânien\n - Plaie au coir chevelu\n - Impotence fonctionnelle coude gauche",
+    "verite_terrain": "Scanner cérébral sans et avec injection (après vérification de la fonction rénale et de l’absence d’allergie à l’iode)\n On recherche un hématome extra-dural, dû au saignement de l’artère méningée moyenne, hémorragie méningée, hématome sous-dural. \n Toute autre cause d’HTIC",
+    "LLama_13b_chat_SFT": "Des radiographies du crâne et une IRM pour évaluer l'étendue des lésions.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402071,
+    "Question": "Quel est l’habitat normal des différentes espèces de levures du genre Candida ?",
+    "verite_terrain": "Peau , muqueuses, environnement",
+    "LLama_13b_chat_SFT": "CANDIDA",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402072,
+    "Question": "Chez quels patients observe t’on, le plus souvent, l’installation d’une candidose profonde ?",
+    "verite_terrain": "Infections nocosomiales sur PAC; chez l'immunodép locale ou générale (neutropénique +++)",
+    "LLama_13b_chat_SFT": "B",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402073,
+    "Question": "Comment peut-on établir le diagnostic d’une candidose profonde ?",
+    "verite_terrain": "Hémocultures mais pas très puissant",
+    "LLama_13b_chat_SFT": "Le diagnostic d'une candidose profonde peut être établi par la présence de levures à l'examen direct du liquide, la présence de pseudohyphae et de kystes, ainsi que par la présence de cellules inflammatoires.",
+    "equivalence": "Non",
+    "preference": "Réponse générée 2"
+  },
+  {
+    "id": 228402074,
+    "Question": "En dehors de la grossesse, dans quelles circonstances, la toxoplasmose peut elle être grave (expliquez votre réponse) ? Comment en poserez- vous le diagnostic ?",
+    "verite_terrain": "Chez l'immunodéprimé (maladie opportuniste) . Formes oculaires, cérébrales, disséminées. Dg : recherche d'abcès ? Recherche directe du parasite (sauf si PI, séro non contributive)",
+    "LLama_13b_chat_SFT": "La toxoplasmose peut être grave en cas d'infection congénitale, d'infection chez les patients immunodéprimés, ou d'infection chez les patients présentant des troubles héréditaires du système immunitaire. Le diagnostic est posé par la détection d'IgM spécifiques dans le sérum, ainsi que par la détection de l'ADN du parasite dans les échantillons de sang ou de liquide céphalo-rachidien.",
+    "equivalence": "Oui",
+    "preference": "Réponse générée 2"
+  },
+  {
+    "id": 228402075,
+    "Question": "Quelle est la parasitose dont le dépistage sérologique est obligatoire pendant la grossesse ? A quel moment de la grossesse ce dépistage doit-il être fait ?",
+    "verite_terrain": "Toxoplasmose. Le plus tôt possible",
+    "LLama_13b_chat_SFT": "A: Paludisme, B: Grossesse, C: Prise de médicaments, D: Quinine [/INST] A",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402076,
+    "Question": "Quelles sont les conséquences, cliniques et diagnostiques, du phénomène de cytoadhérence de P. falciparum dans les micro-vaisseaux ?",
+    "verite_terrain": "Microhémorragies tissulaires",
+    "LLama_13b_chat_SFT": "AE",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402077,
+    "Question": "Quel prélèvement et quelle(s) technique(s) doit(vent) être utilisée(s) pour le diagnostic de paludisme? Dans quels délais les résultats doivent-ils être rendus par le laboratoire ?",
+    "verite_terrain": "Goutte épaisse / frottis sanguin\n Délai maximal de 2h",
+    "LLama_13b_chat_SFT": "Le prélèvement sanguin doit être effectué dans les 48 heures suivant l'apparition des symptômes et les résultats doivent être rendus dans les 24 heures.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402078,
+    "Question": "Citez trois parasitoses que l’on peut contracter, en France métropolitaine, en mangeant de la viande insuffisamment cuite.",
+    "verite_terrain": "Tichinellose\n Toxoplasmose\n Cestodose",
+    "LLama_13b_chat_SFT": "______, ______, ______",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402079,
+    "Question": "Citez sans les détailler les 3 étages du pharynx?\n\nContexte : Un homme de 60 ans consulte pour une dysphagie aux solides s’aggravant depuis 2 mois. Il a perdu 6 kg en 6 mois. L’examen orl par laryngoscopie indirecte retrouve une lésion d’allure tumorale du sinus piriforme droit.",
+    "verite_terrain": "- Rhinopharynx\n - Oropharynx\n - Hypopharynx",
+    "LLama_13b_chat_SFT": "Le pharynx est divisé en trois étages : l'étage supérieur, l'étage moyen et l'étage inférieur.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402080,
+    "Question": "Que recherchez-vous en consultation à la palpation cervicale ?\n\nContexte : Un homme de 60 ans consulte pour une dysphagie aux solides s’aggravant depuis 2 mois. Il a perdu 6 kg en 6 mois. L’examen orl par laryngoscopie indirecte retrouve une lésion d’allure tumorale du sinus piriforme droit.",
+    "verite_terrain": "Adénopathies cervicales",
+    "LLama_13b_chat_SFT": "On recherche des signes de dysphagie, des troubles de la déglutition, et des anomalies de la muqueuse laryngée.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402081,
+    "Question": "Citez par quels moyens réaliser une laryngoscopie indirecte ?\n\nContexte : Un homme de 60 ans consulte pour une dysphagie aux solides s’aggravant depuis 2 mois. Il a perdu 6 kg en 6 mois. L’examen orl par laryngoscopie indirecte retrouve une lésion d’allure tumorale du sinus piriforme droit.",
+    "verite_terrain": "- Au miroir (miroir laryngé avec lumière frontale, de Clar)\n - Au nasofibroscope",
+    "LLama_13b_chat_SFT": "La laryngoscopie indirecte peut être réalisée par endoscopie ou par examen visuel à l'aide d'un laryngoscope.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402082,
+    "Question": "Quel examen morphologique sous anesthésie générale programmez-vous? En quoi consiste-t-il et dans quels buts le réalisez-vous ?\n\nContexte : Un homme de 60 ans consulte pour une dysphagie aux solides s’aggravant depuis 2 mois. Il a perdu 6 kg en 6 mois. L’examen orl par laryngoscopie indirecte retrouve une lésion d’allure tumorale du sinus piriforme droit.",
+    "verite_terrain": "- Panendoscopie réalisée sous AG\n - Consiste en une laryngoscopie directe, une hypopharyngoscopie directe et oesopagoscopie directe, aux tubes rigides. \n - Permet de faire un bilan d’extension de la tumeur, de rechercher des lésions synchrones, et de réaliser des biopsies dont l’analyse histologique permet d’affirmer le diagnostic de cancer.",
+    "LLama_13b_chat_SFT": "Un examen morphologique sous anesthésie générale consiste en une endoscopie digestive haute pour évaluer la dysphagie et visualiser la lésion suspectée.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402083,
+    "Question": "Quel principal examen radiologique demandez-vous pour permettre d’établir le staging TNM de cette tumeur ?\n\nContexte : Un homme de 60 ans consulte pour une dysphagie aux solides s’aggravant depuis 2 mois. Il a perdu 6 kg en 6 mois. L’examen orl par laryngoscopie indirecte retrouve une lésion d’allure tumorale du sinus piriforme droit.",
+    "verite_terrain": "- TDM et/ou IRM sans et avec injection\n - Scintigraphie au FDG\n - TEP-FDG\n - Examen clinique complet\n - TDM thoracique\n - Bilan hépatique et échographie abdominale",
+    "LLama_13b_chat_SFT": "Un examen radiologique par tomodensitométrie (TDM) ou une imagerie par résonance magnétique (IRM) est recommandé pour établir le staging TNM.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402084,
+    "Question": "Quel examen ORL doit être impérativement réalisé en consultation, en dehors de l’examen otoscopique ?\n\nContexte : Une femme de 30 ans, maghrébine, présente une otite séromuqueuse droite depuis 3 mois, résistante au traitement par corticoïdes et antibiotiques (Augmentin®). Vous retrouvez une surdité de transmission droite. Vous palpez des adénopathies cervicales bilatérales suspectes.",
+    "verite_terrain": "Laryngoscopie indirecte au miroir ou au nasofibroscope",
+    "LLama_13b_chat_SFT": "Un examen laryngoscopique est nécessaire pour évaluer les adénopathies cervicales.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402085,
+    "Question": "Que devez-vous suspecter ?\n\nContexte : Une femme de 30 ans, maghrébine, présente une otite séromuqueuse droite depuis 3 mois, résistante au traitement par corticoïdes et antibiotiques (Augmentin®). Vous retrouvez une surdité de transmission droite. Vous palpez des adénopathies cervicales bilatérales suspectes.",
+    "verite_terrain": "Cancer du cavum car OSM chronique chez une adulte, résistant aux antibiotiques.",
+    "LLama_13b_chat_SFT": "Une infection bactérienne persistante et des adénopathies cervicales suspectes.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402086,
+    "Question": "Quel premier examen clinique réalisez-vous en consultation et par quels moyens pouvez-vous le faire ?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "Laryngoscopie indirecte avec le miroir (laryngé, de Clar) ou avec le nasofibroscope",
+    "LLama_13b_chat_SFT": "Un examen clinique peut inclure une laryngoscopie directe et indirecte, ainsi qu'une évaluation de la fonction respiratoire.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402087,
+    "Question": "Quel est le caractère principal d’une dyspnée laryngée et quelles sont ses caractéristiques?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "- Dyspnée inspiratoire\n - Bradypnée inspiratoire\n - Bruit inspiratoire : stridor, cornage\n - Tirage",
+    "LLama_13b_chat_SFT": "La dyspnée laryngée est principalement caractérisée par une gêne respiratoire progressive.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402088,
+    "Question": "Quels sont les 3 étages du larynx ?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "-  Sus-glottique\n - Glottique\n - Sous-glottique",
+    "LLama_13b_chat_SFT": "Les 3 étages du larynx sont le vestibule, le larynx proprement dit et le pharynx supérieur.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402089,
+    "Question": "Quelles sont les trois principales fonctions du larynx ?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "-  Phonation \n - Respiration\n - Déglutition",
+    "LLama_13b_chat_SFT": "La fonction du larynx inclut la production de la voix, la protection des voies respiratoires, et la régulation de la respiration.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402090,
+    "Question": "Quelle est la particularité anatomique du nerf laryngé inférieur (nerf récurrent) gauche par rapport au nerf laryngé inférieur droit ?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "Il a une portion intra-thoracique (passe sous la crosse de l’aorte), puis il remonte vers le larynx",
+    "LLama_13b_chat_SFT": "Le nerf laryngé inférieur gauche a une particularité anatomique en ce qu'il est plus long et plus horizontal que le nerf laryngé inférieur droit.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402091,
+    "Question": "L’examen clinique fait suspecter un cancer étendu du plan glottique. Que programmez-vous pour confirmer le diagnostic et pour établir le statut TNM de ce cancer?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "Panendoscopie sous AG pour rechercher des lésions synchrones, faire un bilan d’extension de la tumeur et réaliser des biopsies\n L’analyse histologique des biopsies permet de confirmer la présence d’un cancer\n Pour établir le statut TNM on prévoit :\n - Un TDM et/ou IRM sans et avec injection cervical\n - Une scintigraphie au FDG\n - Un TEP-TDM\n - Un examen clinique complet du patient",
+    "LLama_13b_chat_SFT": "Un examen laryngoscopique et une imagerie par tomodensitométrie (TDM) pour confirmer le diagnostic et établir le statut TNM.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402092,
+    "Question": "A quel geste, à réaliser en urgence, doit conduire la très mauvaise tolérance respiratoire du patient ?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "Monitoring continu avec saturation\n Position assise ou demi-assise\n Oxygène en lunettes ou en masque\n Aérosol de Bompard : 123 ASP\n - 1 mg adrénaline\n - 2 mg soludécadron\n - 3 mL sérum physiologique\n Corticoïdes IV ou IM 1 à 3mg/kg\n Antibiothérapie si suspicion de contexte septique\n Intubation ou trachéotomie si absence d’amélioration et avant épuisement\n Désobstruction au laser dans ce cas car cancer",
+    "LLama_13b_chat_SFT": "Il faut réaliser une intubation urgente pour assurer la ventilation.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402093,
+    "Question": "Quelle est la caractéristique d’une tumeur limitée (T1) de la corde vocale en ce qui concerne le risque d’extension ganglionnaire?\n\nContexte : Une femme de 55 ans se présente pour une dysphonie présente depuis 3 mois, avec une gêne respiratoire progressive.",
+    "verite_terrain": "Très peu de risque d’extension ganglionnaire : les cancers des VADS ont un haut risque d’extension ganglionnaire saufs les cancers du plan glottique (cordes vocales)",
+    "LLama_13b_chat_SFT": "Une tumeur limitée (T1) de la corde vocale a un faible risque d'extension ganglionnaire.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402094,
+    "Question": "Quel diagnostic suspectez-vous et comment le confirmer?\n\nContexte : Une femme de 45 ans est adressée en ORL pour une lésion suspecte de l’amygdale palatine droite. Celle-ci a été découverte par son généraliste lors de l’examen clinique effectué devant une adénopathie sous digastrique droite (groupe IIA). Sa voix est normale. Elle ne reconnaît pas d’intoxication alcoolo-tabagique.",
+    "verite_terrain": "Cancer de l'oropharynx (probablement lymphome malin non hodgkinien).",
+    "LLama_13b_chat_SFT": "Le diagnostic suspecté est une lésion bénigne de l'amygdale palatine droite, qui nécessite une évaluation plus approfondie par un spécialiste ORL.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402095,
+    "Question": "Quelle première exploration morphologique et diagnostique planifiez-vous ? Préciser ce qu’elle comprend et ses modalités. Quels sont ses objectifs ?\n\nContexte : Une femme de 45 ans est adressée en ORL pour une lésion suspecte de l’amygdale palatine droite. Celle-ci a été découverte par son généraliste lors de l’examen clinique effectué devant une adénopathie sous digastrique droite (groupe IIA). Sa voix est normale. Elle ne reconnaît pas d’intoxication alcoolo-tabagique.",
+    "verite_terrain": "On planifie une panendoscopie sous anesthésie générale. Elle comprend une laryngoscopie directe, une hypopharyngoscopie directe et une œsophagoscopie directe, aux tubes rigides. L'œsophagoscopie aux tubes rigides peut être remplacée par une fibroscopie œsophagienne. Cette panendoscopie ne comprend pas, de principe, une bronchoscopie. Elle permet d'analyser l'extension tumorale, de rechercher une localisation synchrone et la réalisation de biopsies. En cas de tumeur, le résultat de la biopsie, par une analyse histologique, pose le diagnostic de tumeur.",
+    "LLama_13b_chat_SFT": "La première exploration morphologique et diagnostique comprend une imagerie par résonance magnétique (IRM) pour évaluer la lésion et l'amygdale, avec l'objectif d'identifier une pathologie bénigne ou maligne.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402096,
+    "Question": "Devant une adénopathie cervicale du groupe sous-digastrique (ou IIa), quels sites tumoraux particulièrement lymphophiles doivent être explorés ?\n\nContexte : Une femme de 45 ans est adressée en ORL pour une lésion suspecte de l’amygdale palatine droite. Celle-ci a été découverte par son généraliste lors de l’examen clinique effectué devant une adénopathie sous digastrique droite (groupe IIA). Sa voix est normale. Elle ne reconnaît pas d’intoxication alcoolo-tabagique.",
+    "verite_terrain": "Devant une adénopathie cervicale, l’enquête à la recherche du primitif doit porter d’abord sur les VADS, avec en premier lieu les localisations très lymphophiles (cavum +++, cavité buccale, oropharynx, hypopharynx, œsophage cervical), sur la région cervicale thyroïdienne et parotidienne et sur les téguments de la tête et du cou (à la recherche d’une tumeur cutanée évocatrice d’un mélanome ou d’un carcinome spinocellulaire).",
+    "LLama_13b_chat_SFT": "Les sites tumoraux particulièrement lymphophiles à explorer incluent les ganglions lymphatiques cervicaux, notamment ceux du groupe sous-digastrique (ou IIa).",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402097,
+    "Question": "Quelle est la différence entre une analyse cytologique et une analyse histologique d’une adénopathie? Quel est le risque d’une biopsie ganglionnaire par rapport à une adénectomie?\n\nContexte : Une femme de 45 ans est adressée en ORL pour une lésion suspecte de l’amygdale palatine droite. Celle-ci a été découverte par son généraliste lors de l’examen clinique effectué devant une adénopathie sous digastrique droite (groupe IIA). Sa voix est normale. Elle ne reconnaît pas d’intoxication alcoolo-tabagique.",
+    "verite_terrain": "Une analyse cytologique est une analyse de cellules prélevées sur un tissu, par cytoponction à l'aiguille fine de ce tissu (si possible sous guidage échographique), par voie transcutanée classiquement.\n Une analyse histologique est une analyse d'un tissu prélevé (biopsie, pièce opératoire).\n La confirmation diagnostique est faite sur une biopsie. Les résultats d'une cytologie orientent vers un diagnostic qui devra être confirmé par une analyse histologique définitive.\n Le risque d'une biopsie ganglionnaire est la rupture capsulaire du ganglion pouvant induire une diffusion métastatique au cas où s'il s'agirait d'une lésion tumorale métastatique.",
+    "LLama_13b_chat_SFT": "L'analyse cytologique est plus rapide et moins invasive, mais moins spécifique que l'analyse histologique. La biopsie ganglionnaire est plus invasive et peut entraîner des complications, tandis qu'une adénectomie peut être plus efficace.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402098,
+    "Question": "Le diagnostic de la lésion est confirmé. Quel bilan paraclinique doit être réalisé pour permettre une classification TNM de cette tumeur ?\n\nContexte : Une femme de 45 ans est adressée en ORL pour une lésion suspecte de l’amygdale palatine droite. Celle-ci a été découverte par son généraliste lors de l’examen clinique effectué devant une adénopathie sous digastrique droite (groupe IIA). Sa voix est normale. Elle ne reconnaît pas d’intoxication alcoolo-tabagique.",
+    "verite_terrain": "Bilan radiologique comprenant :\n - une TDM cervicale et thoracique sans et avec injection de produit de contraste ou une IRM\n - une scintigraphie au fluorodésoxyglucose +/- couplée au scanner PET-FDG (PET-TDM).",
+    "LLama_13b_chat_SFT": "Un bilan paraclinique doit inclure une imagerie par IRM ou une tomodensitométrie pour confirmer la taille et la localisation de la lésion.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402099,
+    "Question": "Il existe une lésion suspecte au niveau du poumon. Quels sont les deux premiers diagnostics qui doivent être suspectés et quelle exploration planifiez-vous ?\n\nContexte : Une femme de 45 ans est adressée en ORL pour une lésion suspecte de l’amygdale palatine droite. Celle-ci a été découverte par son généraliste lors de l’examen clinique effectué devant une adénopathie sous digastrique droite (groupe IIA). Sa voix est normale. Elle ne reconnaît pas d’intoxication alcoolo-tabagique.",
+    "verite_terrain": "métastase pulmonaire et cancer primitif au niveau du poumon\n On planifie une radiographie pulmonaire de face et de profil ou une scintigraphie au FDG.",
+    "LLama_13b_chat_SFT": "Les deux premiers diagnostics suspectés sont un carcinome de l'amygdale et une infection de l'amygdale. L'exploration devrait inclure une imagerie par IRM ou une biopsie.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402100,
+    "Question": "Citez sans les détailler les traitements des carcinomes épidermoïdes des voies aéro-digestives supérieures ?\n\nContexte : Une femme de 45 ans est adressée en ORL pour une lésion suspecte de l’amygdale palatine droite. Celle-ci a été découverte par son généraliste lors de l’examen clinique effectué devant une adénopathie sous digastrique droite (groupe IIA). Sa voix est normale. Elle ne reconnaît pas d’intoxication alcoolo-tabagique.",
+    "verite_terrain": "Le traitement des carcinomes épidermoïdes des VADS comprend celui de la tumeur primitive et des aires ganglionnaires. Il consiste fréquemment en des combinaisons thérapeutiques comprenant une chimiothérapie néoadjuvante, une chirurgie avec curage ganglionnaire et/ou une radiochimiothérapie.",
+    "LLama_13b_chat_SFT": "Les traitements des carcinomes épidermoïdes incluent la chirurgie, la radiothérapie et la chimiothérapie, en fonction de la taille et de l'étendue de la maladie.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402101,
+    "Question": "Quels éléments de sémiologie clinique en faveur d’une paralysie faciale d’origine périphérique recherchez-vous à l’examen ?\n\nContexte : Madame Sylviane B., 62 ans vient vous consulter pour une paralysie faciale gauche apparue 48 heures auparavant. A l’examen, la patiente est apyrétique. Sa tension artérielle est de 145/85. Elle présente une surcharge pondérale à 78 Kg pour 1m68 mais a perdu 5 Kg en 2 semaines. Dans ces antécédents, vous notez un diabète insulino-dépendant et une hypertension artérielle traitée par Loxen®.",
+    "verite_terrain": "-  disparition des rides, \n - sourcil abaissé, \n - fente palpébrale plus large, \n - abaissement paupières inférieure, \n - effacement du sillon naso-génien, \n - bouche attirée du côté sain, \n - abaissement de la commissure labiale. \n - Signe de Charles-Bell signant l’atteinte périphérique. \n - Attention aux formes incomplètes avec signe de Collet et signe des cils de Souques.",
+    "LLama_13b_chat_SFT": "Les éléments incluent une déviation de la lèvre, une paralysie bilatérale des muscles faciaux, et une perte de sensation sur la joue.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402102,
+    "Question": "Quel(s) élément(s) clinique(s) et paraclinique(s) vous permettent d’apprécier la gravité de cette paralysie faciale ?\n\nContexte : Madame Sylviane B., 62 ans vient vous consulter pour une paralysie faciale gauche apparue 48 heures auparavant. A l’examen, la patiente est apyrétique. Sa tension artérielle est de 145/85. Elle présente une surcharge pondérale à 78 Kg pour 1m68 mais a perdu 5 Kg en 2 semaines. Dans ces antécédents, vous notez un diabète insulino-dépendant et une hypertension artérielle traitée par Loxen®.",
+    "verite_terrain": "- testing musculaire avec technique de Freyss. \n - Classification de House-Brackmann (6 grades). \n - Rechercher complication oculaire  ulcère. \n - EMG global intégré avec stimulation du nerf en avant du tragus.",
+    "LLama_13b_chat_SFT": "Les éléments cliniques tels que l'apparition soudaine de la paralysie faciale, l'absence de fièvre, et l'hypertension artérielle traitée par Loxen® sont importants pour évaluer la gravité de la paralysie faciale.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402103,
+    "Question": "En dehors des infections récidivantes, quelle conséquence de cette otite séromuqueuse chronique devez- vous rechercher par l’interrogatoire ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "Perte auditive entrainant un retard scolaire, du langage.",
+    "LLama_13b_chat_SFT": "Il est important de rechercher des infections récidivantes, qui peuvent indiquer une otite séromuqueuse chronique.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402104,
+    "Question": "A l’examen clinique ORL (hors interrogatoire et otoscopie), que recherchez-vous qui pourrait favoriser cette otite séromuqueuse chronique ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "Hypertrophie des végétations",
+    "LLama_13b_chat_SFT": "Une carence martiale ou un bilan allergologique négatif.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402105,
+    "Question": "Quelle exploration complémentaire demandez-vous avant toute prise de décision thérapeutique ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "Radio du cavum à la recherche d’une hypertrophie des végétations",
+    "LLama_13b_chat_SFT": "Il est recommandé d'effectuer une recherche d'infections récurrentes, notamment des otites, et d'évaluer les facteurs environnementaux tels que l'humidité ou les allergies.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402106,
+    "Question": "Un tympanogramme a été effectué. Dans cette otite séreuse constituée, quel type de courbe a-t-on le plus de chance d’obtenir (A, B ou C) ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "Type B : courbe plate",
+    "LLama_13b_chat_SFT": "A",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402107,
+    "Question": "Quelles sont les 3 situations cliniques qui conduisent à traiter une otite séro-muqueuse persistante ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "-  Hypoacousie\n - Surinfections itératives\n - Prévention des altérations du tympan",
+    "LLama_13b_chat_SFT": "Les trois situations cliniques sont : récidive d'otites moyennes aiguës, bulles hydroaériques, et tympans fins et jaunâtres.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402108,
+    "Question": "Citez deux complications de l’OSM, qui a pu survenir pendant ces 3 ans et être responsable de la symptomatologie ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.\n Cet enfant est perdu de vue 3 ans. Les otites aiguës ont progressivement disparu, puis une otorrhée purulente gauche est survenue il y a 4 mois, améliorée par un traitement antibiotique local mais ayant récidivé à 3 reprises. Le tympan droit est normal, mais l’otoscopie est difficile à gauche car une otorrhée purulente gène l’analyse du tympan.",
+    "verite_terrain": "- Evolution vers une otite moyenne chronique muqueuse ou cholestéatomateuse\n - Ou réchauffement et nouvelle phase d’otites moyennes aiguës",
+    "LLama_13b_chat_SFT": "Les complications de l'OSM incluent l'otorrhée et la récidive des infections.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402109,
+    "Question": "Quel examen spécialisé est indispensable en première intention devant ce tableau clinique quelle que soit votre hypothèse, et par quels moyens ?\n\nContexte : Un homme de 55 ans est adressé à l’ORL pour une dysphonie. Il a une intoxication tabagique à 60PA et aucun antécédent chirurgical.",
+    "verite_terrain": "Laryngoscopie indirecte (au miroir ou au nasofibroscope).",
+    "LLama_13b_chat_SFT": "Un examen laryngé direct est indispensable, par endoscopie ou laryngoscopie directe, pour évaluer l'état des cordes vocales et des muscles.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402110,
+    "Question": "Vous observez une immobilité de la corde vocale gauche. Citez 2 mécanismes pouvant être responsables d’une immobilité d’une corde vocale.\n\nContexte : Un homme de 55 ans est adressé à l’ORL pour une dysphonie. Il a une intoxication tabagique à 60PA et aucun antécédent chirurgical.",
+    "verite_terrain": "- tumeur du larynx\n - paralysie récurrentielle\n - séquelle d'intubation (ankylose des articulations crico-arythénoïdiennes)\n - myasthénie",
+    "LLama_13b_chat_SFT": "Paralysie du nerf laryngé supérieur et lésion traumatique de la corde vocale.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402111,
+    "Question": "Quels sont les symptômes classiquement présents lors d’une paralysie récurrentielle ?\n\nContexte : Un homme de 55 ans est adressé à l’ORL pour une dysphonie. Il a une intoxication tabagique à 60PA et aucun antécédent chirurgical.",
+    "verite_terrain": "Dysphonie avec voix bitonale ou soufflée.\n Fausses routes aux liquides.\n Reprises inspiratoires au cours de la phonation ou des efforts.",
+    "LLama_13b_chat_SFT": "Les symptômes classiquement présents incluent une dysphonie, une perte de voix, et des douleurs pharyngées.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402112,
+    "Question": "En l’absence de tumeur pharyngolaryngée, quelles étiologies tumorales doivent être recherchées en présence d’une paralysie récurrentielle gauche?\n\nContexte : Un homme de 55 ans est adressé à l’ORL pour une dysphonie. Il a une intoxication tabagique à 60PA et aucun antécédent chirurgical.",
+    "verite_terrain": "- tumeur de la thyroïde\n - tumeur de l'oesophage\n - tumeur médiastinale\n - tumeur bronchique gauche",
+    "LLama_13b_chat_SFT": "Les étiologies tumorales à considérer incluent les tumeurs pharyngolaryngées, les lésions thyroïdiennes et les néoplasies cervicales.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402113,
+    "Question": "Quels 2 principaux examens complémentaires à visée étiologique doivent être réalisés devant une paralysie récurrentielle unilatérale ?\n\nContexte : Un homme de 55 ans est adressé à l’ORL pour une dysphonie. Il a une intoxication tabagique à 60PA et aucun antécédent chirurgical.",
+    "verite_terrain": "TDM cervico-thoracique. Echographie de la thyroïde.",
+    "LLama_13b_chat_SFT": "Les deux principaux examens complémentaires à visée étiologique sont une endoscopie laryngée et une imagerie par résonance magnétique (IRM) des cordes vocales.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402114,
+    "Question": "Quelle est la cause la plus fréquente de paralysie récurrentielle post-opératoire ?\n\nContexte : Un homme de 55 ans est adressé à l’ORL pour une dysphonie. Il a une intoxication tabagique à 60PA et aucun antécédent chirurgical.",
+    "verite_terrain": "Chirurgie de la thyroïde",
+    "LLama_13b_chat_SFT": "La cause la plus fréquente de paralysie récurrentielle post-opératoire est la lésion du nerf récurrent.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402115,
+    "Question": "Quel est le signe clinique qui permet de différencier une atteinte du nerf récurrent d’une atteinte du nerf pneumogastrique ? Que traduit-il ?\n\nContexte : Un homme de 55 ans est adressé à l’ORL pour une dysphonie. Il a une intoxication tabagique à 60PA et aucun antécédent chirurgical.",
+    "verite_terrain": "Le signe du rideau. Il traduit une paralysie du pharynx homolatérale à la paralysie laryngée.",
+    "LLama_13b_chat_SFT": "Le signe clinique d'une atteinte du nerf récurrent est une dysphonie, tandis que l'atteinte du nerf pneumogastrique peut se manifester par une dysphagie.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402116,
+    "Question": "Quel diagnostic devez-vous éliminer devant un tel tableau clinique ? Sur quels arguments de l’observation le suspectez-vous ?\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "Neurinome de l'acoustique (terrain : femme, surdité progressive, acouphènes unilatéraux, vertiges, tympans normaux, Weber latéralisé du côté sain, Rinne nul).",
+    "LLama_13b_chat_SFT": "Le diagnostic à éliminer est une névralgie vestibulaire, caractérisée par des vertiges et des acouphènes.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402117,
+    "Question": "Que recherchez-vous à l’examen clinique pour étayer votre diagnostic ?\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "examen cutané : rechercher des taches \"café au lait\" évocatrices de neurofibromatose\n examen neurologique : \n - paires crâniennes, surtout V et VII\n - examen des voies longues\n - recherche d'un syndrome cérébelleux\n - rechercher des signes d'HTIC",
+    "LLama_13b_chat_SFT": "Pour étayer le diagnostic, je rechercherais des signes cliniques de surdité, des acouphènes homolatéraux, et des vertiges.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402118,
+    "Question": "Quels sont les éléments du bilan audio-vestibulaire ? Qu’en attendez-vous ?\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "audiométrie tonale : surdité de perception unilatérale ou au moins asymétrique\n épreuves supra-liminaires (étude du réflexe stapédien) :\n - pas de recrutement\n - allongement de la latence ou disparition du réflexe stapédien\n - présence d'une fatigabilité (adaptation pathologique) au Decay test\n audiométrie vocale : \n - altération de la compréhension et de la discrimination vocales plus importante que ne le voudrait l'audiométrie tonale\n - typiquement, courbe en cloche n'atteignant pas le 100 %.\n PEA précoces du tronc cérébral :\n - allongement des latences I-III et I-V\n - désynchronisation ou disparition des potentiels\n - parfois simple discordance entre leur altération et la conservation de l'audition\n Bilan vestibulaire : il peut retrouver :\n - un nystagmus horizonto-rotatoire spontané battant vers l'oreille saine\n - une hypo ou une aréflexie vestibulaire aux épreuves caloriques vestibulaires\n - un examen normal n'élimine pas le diagnostic",
+    "LLama_13b_chat_SFT": "Le bilan audio-vestibulaire est essentiel pour évaluer la surdité, les acouphènes, les vertiges et les troubles de l'équilibre.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402119,
+    "Question": "Quel(s) examen(s) radiologique(s) vous permet(tent) de confirmer votre diagnostic ? Que montre(nt)-t-il(s) ?\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "IRM :\n - examen de choix car le plus performant\n - retrouve une lésion centrée sur le CAI, en iso-signal en séquences T1, prenant le signal après      injection de gadolinium\n - permet un bilan d'extension précis sur les structures adjacentes\n Scanner :\n - peut retrouver des signes indirects comme l'élargissement du CAI\n - peut montrer une masse hypodense, se rehaussant après injection",
+    "LLama_13b_chat_SFT": "Un scanner cérébral est nécessaire pour évaluer les lésions cérébrales et les anomalies vasculaires.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402120,
+    "Question": "Le bilan audiométrique de votre patiente montrant une surdité subtotale du côté gauche, quel traitement proposeriez-vous à cette patiente ?\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "Exérèse du neurinome",
+    "LLama_13b_chat_SFT": "Un traitement médical est indiqué pour la surdité subtotale, avec évaluation de la possibilité d'un traitement chirurgical si nécessaire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402121,
+    "Question": "Vous décidez d’un traitement chirurgical qui est programmé 3 semaines plus tard. Au réveil, la patiente présente une paralysie faciale périphérique gauche. Quel(s) élément(s) clinique(s) ou paraclinique(s) vous permettent d’apprécier la gravité de cette paralysie faciale ?\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "Cliniquement :\n - par le testing musculaire des muscles latéraux selon la technique de Freyss permettant de coter la contraction et le tonus\n - par la classification de House-Brackmann univerdellement admise, qui est plus simple et comprend 6 grades\n - recherche d'une complication oculaire (kératite ou ulcération)\n Eléments paracliniques : \n - EMG globale intégrée ou neurographie de Hesslen\n - élément le plud fiable pour apprécier la gravité d'une paralysie faciale\n - valeur diagnostique dans les formes frustres ou atypiques\n - EMG de stimulation du nerf facial en avant du tragus avec recueil sur les différents groupes musculaires de la face. Le résultat de l'amplitude de la réponse musculaire après stimulation supra-maximale permet de calculer la perte axonale par stimulation avec le côté sain. C'est l'évolution et l'intensité de la perte axonale qui permettent de préciser le type de la lésion nerveuse et son pronostic.",
+    "LLama_13b_chat_SFT": "Les éléments cliniques tels que la paralysie faciale périphérique, l'intensité des acouphènes, et l'évolution des symptômes vertigineux peuvent aider à évaluer la gravité de la paralysie faciale.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402122,
+    "Question": "Quelle(s) précaution(s) vous semblent utile(s) devant cette atteinte du nerf facial ?\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "Prise en charge urgente pour prévenir les complications oculaires : \n - larmes artificielles\n - collyres antiseptiques    \n - pommade à la vitamine A\n - fermeture palpébrale nocturne\n - examen ophtalmologique régulier",
+    "LLama_13b_chat_SFT": "Il est important de préciser les instructions de sécurité pour la patiente, notamment en ce qui concerne les activités à risque comme la conduite.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402123,
+    "Question": "Citez deux complications de ces paralysies faciales périphériques.\n\nContexte : Une femme de 56 ans, vous consulte pour le bilan d’une hypoacousie gauche s’aggravant progressive depuis 6 ans, associée à des acouphènes homolatéraux et depuis 6 mois à des vertiges. L’examen otoscopique est normal. L’épreuve de Weber est latéralisée du côté droit. Le Rinne acoumétrique est nul. Dans ses antécédents, vous retrouvez la notion d’une surdité brutale gauche à l’âge de 48 ans ayant récupéré totalement sous traitement médical.",
+    "verite_terrain": "Complications oculaires : kératite \n Syndrome des larmes de crocodile \n Le spasme hémi-facial",
+    "LLama_13b_chat_SFT": "Les deux complications sont l'acouphène homolatéral et les vertiges.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402124,
+    "Question": "Quelle question posez-vous aux parents pour apprécier si le langage se développe normalement pour l’âge ?\n\nContexte : Vous voyez en consultation un nourrisson de 9 mois. C’est le quatrième enfant d’un couple non consanguin. Les 3 frères et sœurs sont bien portants et il n’y a pas d’antécédents familiaux de surdité. Les parents se demandent s’il entend bien.",
+    "verite_terrain": "Réaction aux bruits familiers, à la voix\n Redoublement des syllabes, réponse au prénom",
+    "LLama_13b_chat_SFT": "Vous posez la question aux parents si leur enfant entend bien, en tenant compte de leur expérience avec les autres enfants.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402125,
+    "Question": "Quels facteurs de risque néonataux devez-vous rechercher auprès des parents et dans le compte rendu de néonatologie ?\n\nContexte : Vous voyez en consultation un nourrisson de 9 mois. C’est le quatrième enfant d’un couple non consanguin. Les 3 frères et sœurs sont bien portants et il n’y a pas d’antécédents familiaux de surdité. Les parents se demandent s’il entend bien. Il n’y a pas eu de traitement pendant la grossesse, l’enfant est né à 33 SA et a séjourné en néonatologie 3 semaines. Il n’y a pas de malformation crânio-faciale ou de notion de syndrome polymalformatif.",
+    "verite_terrain": "- Anoxie néonatale\n - Prématurité\n - Incompatibilité Rh",
+    "LLama_13b_chat_SFT": "Il est essentiel de rechercher des antécédents familiaux de surdité, des traitements pendant la grossesse, et des antécédents néonatologiques.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402126,
+    "Question": "Quel bilan auditif subjectif et quel examen objectif demandez-vous pour apprécier le seuil auditif ?\n\nContexte : Vous voyez en consultation un nourrisson de 9 mois. C’est le quatrième enfant d’un couple non consanguin. Les 3 frères et sœurs sont bien portants et il n’y a pas d’antécédents familiaux de surdité. Les parents se demandent s’il entend bien. Il n’y a pas eu de traitement pendant la grossesse, l’enfant est né à 33 SA et a séjourné en néonatologie 3 semaines. Il n’y a pas de malformation crânio-faciale ou de notion de syndrome polymalformatif. L’examen clinique est normal, vous n’avez pas retrouvé de facteur de risque particulier. Mais les stimulations avec jouets sonores en consultation vont dans le sens des observations des parents : les réactions auditives sont très pauvres. Vous allez adresser l’enfant à un Orl spécialisé en audiophonologie de l’enfant.",
+    "verite_terrain": "Bilan auditif subjectif : audiométrie par réflexe conditionné\n Bilan objectif permettant d’apprécier le seuil auditif : potentiels évoqués auditifs",
+    "LLama_13b_chat_SFT": "Un bilan auditif subjectif et un examen objectif, tel qu'un test d'impédance, sont nécessaires pour évaluer le seuil auditif.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402127,
+    "Question": "Quel diagnostic évoquez-vous en priorité ?\n\nContexte : Marin, enfant de 2 ans est amené par ses parents aux urgences pour l’apparition brutale d’une tuméfaction inflammatoire de l’angle interne de l’œil droit accompagnée d’une fièvre à 39°C. Il présentait une rhinite fébrile depuis quelques jours.",
+    "verite_terrain": "Ethmoïdite aiguë.",
+    "LLama_13b_chat_SFT": "Un abcès périorbitaire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402128,
+    "Question": "Que recherchez-vous à l’examen clinique ?\n\nContexte : Marin, enfant de 2 ans est amené par ses parents aux urgences pour l’apparition brutale d’une tuméfaction inflammatoire de l’angle interne de l’œil droit accompagnée d’une fièvre à 39°C. Il présentait une rhinite fébrile depuis quelques jours.",
+    "verite_terrain": "On recherche une exophtalmie, réductible ou non, ainsi que des signes de gravité (immobilité oculaire, mydriase, anesthésie de la cornée).",
+    "LLama_13b_chat_SFT": "On recherche des signes d'infection, des anomalies de la vision, et des symptômes associés comme la rhinite.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402129,
+    "Question": "Quel bilan biologique demandez-vous ?\n\nContexte : Marin, enfant de 2 ans est amené par ses parents aux urgences pour l’apparition brutale d’une tuméfaction inflammatoire de l’angle interne de l’œil droit accompagnée d’une fièvre à 39°C. Il présentait une rhinite fébrile depuis quelques jours.",
+    "verite_terrain": "- NFS, hémocultures, bilan préopératoire si nécessaire\n - prélèvements bactériologiques protégés au méat moyen",
+    "LLama_13b_chat_SFT": "Un bilan biologique devrait inclure une numération formule sanguine, une recherche d'agents infectieux, et des tests de la fonction hépatique.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402130,
+    "Question": "Quel bilan radiologique demandez-vous et que peut-on en attendre ?\n\nContexte : Marin, enfant de 2 ans est amené par ses parents aux urgences pour l’apparition brutale d’une tuméfaction inflammatoire de l’angle interne de l’œil droit accompagnée d’une fièvre à 39°C. Il présentait une rhinite fébrile depuis quelques jours.",
+    "verite_terrain": "TDM du massif facial en coupes axiales et coronales ++ :\n - qui peut retrouver des opacités dans les cellules ethmoïdales\n - recherche des complications oculaires : cellulite, abcès sous-périosté ou intra-orbitaire\n - analyse les rapports de l'abcès avec les muscles et le nerf optique.",
+    "LLama_13b_chat_SFT": "Un bilan radiologique peut inclure une tomodensitométrie (TDM) de la région orbitaire pour évaluer l'étendue de l'inflammation et détecter des collections de liquide.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402131,
+    "Question": "Quels sont votre conduite à tenir et les principes thérapeutiques ?\n\nContexte : Marin, enfant de 2 ans est amené par ses parents aux urgences pour l’apparition brutale d’une tuméfaction inflammatoire de l’angle interne de l’œil droit accompagnée d’une fièvre à 39°C. Il présentait une rhinite fébrile depuis quelques jours.",
+    "verite_terrain": "- hospitalisation en milieu spécialisé\n pose d'une voie veineuse\n antibiothérapie parentérale synergique et adaptée\n anti-inflammatoires, prescrits après 24 à 48 heures d'antibiothérapie efficace et après apyrexie.\n antalgiques, antipyrétiques, prescrits en fonction de la douleur et de la fièvre.\n soins locaux :\n - désinfection rhinopharyngée au sérum physiologique 4 à 6 fois par jour\n - soins oculaires en cas de complications : larmes artificielles, collyres antibiotiques\n traitement chirurgical :  \n - en cas de complications oculaires ou de collection importante au scanner\n - évacuation de l'abcès sous-périosté par voie canthale interne",
+    "LLama_13b_chat_SFT": "Il est nécessaire de réaliser un examen clinique approfondi, de prescrire des analyses biologiques, et d'instaurer un traitement antibiotique adapté.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402132,
+    "Question": "Lors de votre examen clinique, vous retrouvez une exophtalmie et une diplopie. Le bilan radiologique vous montre la présence d’un abcès sous-périosté refoulant le globe oculaire vers l’avant et le dehors. Quelle sera votre attitude thérapeutique ?\n\nContexte : Marin, enfant de 2 ans est amené par ses parents aux urgences pour l’apparition brutale d’une tuméfaction inflammatoire de l’angle interne de l’œil droit accompagnée d’une fièvre à 39°C. Il présentait une rhinite fébrile depuis quelques jours.",
+    "verite_terrain": "traitement chirurgical : évacuation de l'abcès sous-périosté par voie canthale interne",
+    "LLama_13b_chat_SFT": "Vous instaurez une antibiothérapie adaptée, surveillez la progression de l'abcès et évaluez la nécessité d'une intervention chirurgicale.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402133,
+    "Question": "Quel germe responsable de l’otite moyenne vous paraît le plus probable et pourquoi ?\n\nContexte : Damien âgé de 18 mois aux antécédents d’otites moyennes à répétition, vous est adressé pour une fièvre à 38,2°C associée à une rhinite et à une conjonctivite. Votre examen otoscopique met en évidence une otite moyenne aiguë droite collectée.",
+    "verite_terrain": "Haemophilus influenzae (association otite/conjonctivite purulente)",
+    "LLama_13b_chat_SFT": "Haemophilus influenzae est le germe le plus probable en raison de l'otite moyenne aiguë.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402134,
+    "Question": "Vous traitez cet enfant par des antibiotiques (amoxicilline et acide clavulanique) pendant 10 jours. Quatre jours après l’arrêt du traitement, l’enfant présente une otalgie droite intense associée à une fièvre à 39°C, alors que la conjonctivite apparaît guérie. Sa mère vous apprend qu’il est gardé à la crèche municipale. Quel germe vous paraît responsable de ce nouveau tableau clinique et pourquoi ? Quelle est votre conduite thérapeutique ?\n\nContexte : Damien âgé de 18 mois aux antécédents d’otites moyennes à répétition, vous est adressé pour une fièvre à 38,2°C associée à une rhinite et à une conjonctivite. Votre examen otoscopique met en évidence une otite moyenne aiguë droite collectée.",
+    "verite_terrain": "Streptococcus Pneumoniae (association hyperthermie > 38°C et otalgie, chez un enfant de moins de 2 ans vivant en crèche).\n - Paracentèse avec prélèvement bactériologique\n - éviction de la crèche\n - antipyrétique\n - corticothérapie",
+    "LLama_13b_chat_SFT": "Le germe responsable est probablement Streptococcus pneumoniae, en raison de l'otite moyenne aiguë et de la conjonctivite.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402135,
+    "Question": "Malgré un traitement adapté, l’enfant est toujours fébrile et apparaît une altération de l’état général et une tuméfaction rétro-auriculaire droite inflammatoire et fluctuante. Quel diagnostic évoquez-vous ? Quelle est votre conduite thérapeutique ?\n\nContexte : Damien âgé de 18 mois aux antécédents d’otites moyennes à répétition, vous est adressé pour une fièvre à 38,2°C associée à une rhinite et à une conjonctivite. Votre examen otoscopique met en évidence une otite moyenne aiguë droite collectée.",
+    "verite_terrain": "Mastoïdite extériorisée.\n Traitement : large paracentèse dans le quadrant antéro-inférieur du tympanpour analyse bactériologique permettant d'adapter l'antibiothérapie. En attendant les résultats, si l'état local ou général est préoccupant, on prescrira une double antibiothérapie à large spectre. En cas d'échec, on proposera une mastoïdectomie chirurgicale après ponction de l'abcès rétro-auriculaire.",
+    "LLama_13b_chat_SFT": "Le diagnostic est une otite moyenne aiguë droite collectée, nécessitant une prise en charge médicale avec des antibiotiques et une surveillance clinique.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402136,
+    "Question": "Citez 4 indications de la paracentèse au cours d’une otite moyenne aiguë.\n\nContexte : Damien âgé de 18 mois aux antécédents d’otites moyennes à répétition, vous est adressé pour une fièvre à 38,2°C associée à une rhinite et à une conjonctivite. Votre examen otoscopique met en évidence une otite moyenne aiguë droite collectée.",
+    "verite_terrain": "- échec d'une antibiothérapie probabiliste\n - otite hyperthermique malgré les antipyrétiques\n - otite hyperalgique malgré les antalgiques\n - otites récidivantes (germes inhabituels ou résistants)\n - otites compliquées\n - otites chez les immuno-déprimés\n - enfant de moins de 3 mois",
+    "LLama_13b_chat_SFT": "Indications de la paracentèse : otite moyenne aiguë, collecte, fièvre, et rhinite.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402137,
+    "Question": "Citez trois complications des otites moyennes aiguës.\n\nContexte : Damien âgé de 18 mois aux antécédents d’otites moyennes à répétition, vous est adressé pour une fièvre à 38,2°C associée à une rhinite et à une conjonctivite. Votre examen otoscopique met en évidence une otite moyenne aiguë droite collectée.",
+    "verite_terrain": "paralysie faciale\n labyrinthite\n complication neurologique\n - méningite\n - abcès cérebelleux ou temporaux\n séquelles\n - perforation tympanique\n - otite séromuqueuse",
+    "LLama_13b_chat_SFT": "Myringite, mastoidite, et perforation tympanique.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402138,
+    "Question": "Lors d’une visite de contrôle réalisée 6 mois après la guérison de cet épisode infectieux, l’examen met en évidence une otite séro-muqueuse bilatérale. Quelle anomalie fréquente et favorisant ce type d’otite recherchez-vous à l’examen clinique et par quel moyen ? Quel traitement chirurgical proposez-vous ?\n\nContexte : Damien âgé de 18 mois aux antécédents d’otites moyennes à répétition, vous est adressé pour une fièvre à 38,2°C associée à une rhinite et à une conjonctivite. Votre examen otoscopique met en évidence une otite moyenne aiguë droite collectée.",
+    "verite_terrain": "On recherche une hypertrophie des végétations adénoïdes par naso-fibroscopie. On propose une adénoïdectomie.",
+    "LLama_13b_chat_SFT": "Le traitement chirurgical proposé est une myringotomie avec insertion d'un tube de ventilation.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402139,
+    "Question": "Sept ans plus tard, Damien vous est adressé pour le bilan d’une hypoacousie droite installée progressivement dans les 18 mois précédents, associée à une otorrhée droite fétide. Votre examen otoscopique met en évidence une poche de rétraction tympanique droite remplie de débris blanchâtres. Quel diagnostic suspectez-vous ? Quels examens complémentaires demandez-vous ?\n\nContexte : Damien âgé de 18 mois aux antécédents d’otites moyennes à répétition, vous est adressé pour une fièvre à 38,2°C associée à une rhinite et à une conjonctivite. Votre examen otoscopique met en évidence une otite moyenne aiguë droite collectée.",
+    "verite_terrain": "OMC cholestéatomateuse.\n TDM en coupes axiales et coronales.",
+    "LLama_13b_chat_SFT": "Le diagnostic suspecté est une otite moyenne aiguë droite, avec des examens complémentaires demandés pour confirmer l'otite et évaluer la réponse au traitement.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402140,
+    "Question": "Quels éléments recherchez vous à l'interrogatoire pour orienter votre diagnostic?\n\nContexte : Un homme de 48 ans vous est adressé par les urgences où il avait été admis la nuit dernière pour un épisode de vertiges. Il présente dans ses antécédents une hypertension artérielle traitée. Le médecin des urgences a retrouvé des éléments faisant évoquer un grand vertige rotatoire et a conclu à un vertige périphérique. Il vous l'adresse pour prise en charge.",
+    "verite_terrain": "- les antécédents du patient\n - les caractéristiques de la crise\n - les signes d'accompagnement",
+    "LLama_13b_chat_SFT": "Les éléments à rechercher incluent les symptômes, les antécédents médicaux, et les résultats des examens d'imagerie.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402141,
+    "Question": "Que recherchez vous à l'examen clinique?\n\nContexte : Un homme de 48 ans vous est adressé par les urgences où il avait été admis la nuit dernière pour un épisode de vertiges. Il présente dans ses antécédents une hypertension artérielle traitée. Le médecin des urgences a retrouvé des éléments faisant évoquer un grand vertige rotatoire et a conclu à un vertige périphérique. Il vous l'adresse pour prise en charge. Le patient décrit une crise de survenue brutale, sans facteur déclenchant, se prolongeant plusieurs heures avec des vomissements associés. Il dit avoir l'impression d'être sur un manège. Il se sent mieux ce matin même si il persiste des vertiges et des nausées qui empêchent une position assise ou debout prolongée.",
+    "verite_terrain": "On recherche une atteinte de la voie réflexe vestibulo-oculaire sous la forme d'un nystagmus (en supprimant la fixation oculaire à l'aide de lunettes de Frenzel) et l'atteinte de la voie réflexe vestibulo-spinale sous les forme d'une déviation segmentaire (déviation des index, épreuve de Romberg, marche aveugle).",
+    "LLama_13b_chat_SFT": "L'examen clinique recherche des signes de vertige, des nausées, des vomissements, et évalue la fonction vestibulaire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402142,
+    "Question": "Quel bilan audio-vestibulaire prescrivez-vous et qu’en attendez-vous ?\n\nContexte : Un homme de 48 ans vous est adressé par les urgences où il avait été admis la nuit dernière pour un épisode de vertiges. Il présente dans ses antécédents une hypertension artérielle traitée. Le médecin des urgences a retrouvé des éléments faisant évoquer un grand vertige rotatoire et a conclu à un vertige périphérique. Il vous l'adresse pour prise en charge. Le patient décrit une crise de survenue brutale, sans facteur déclenchant, se prolongeant plusieurs heures avec des vomissements associés. Il dit avoir l'impression d'être sur un manège. Il se sent mieux ce matin même si il persiste des vertiges et des nausées qui empêchent une position assise ou debout prolongée.",
+    "verite_terrain": "- bilan audiométrique (recherche une atteinte cochléaire)\n - épreuves vestibulaires : épreuve calorique essentiellement voire épreuves plus sophostiquées (videonystagmographie, posturographie, équitest). (recherche une aréflexie vestibulaire)\n - TDM des rochers en coupes fines en cas de suspicion d'atteinte pétreuse\n - IRM de la fosse postérieure en cas de doute sur une atteinte de l'angle ou du tronc cérébral",
+    "LLama_13b_chat_SFT": "Un bilan audio-vestibulaire devrait inclure une évaluation des réflexes vestibulaires, une audiométrie tonale et pure, et une évaluation de la fonction vestibulaire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402143,
+    "Question": "Quelle est votre principale hypothèse étiologique?\n\nContexte : Un homme de 48 ans vous est adressé par les urgences où il avait été admis la nuit dernière pour un épisode de vertiges. Il présente dans ses antécédents une hypertension artérielle traitée. Le médecin des urgences a retrouvé des éléments faisant évoquer un grand vertige rotatoire et a conclu à un vertige périphérique. Il vous l'adresse pour prise en charge. Le patient décrit une crise de survenue brutale, sans facteur déclenchant, se prolongeant plusieurs heures avec des vomissements associés. Il dit avoir l'impression d'être sur un manège. Il se sent mieux ce matin même si il persiste des vertiges et des nausées qui empêchent une position assise ou debout prolongée.",
+    "verite_terrain": "La névrite vestibulaire (grande crise vertigineuse, de survenue brutale sans prodromes, avec nausées, vomissements, patient allongé, amélioration des symptômes le lendemain).",
+    "LLama_13b_chat_SFT": "L'hypothèse étiologique principale est un vertige périphérique, en raison des symptômes décrits et de l'absence de signes neurologiques focaux.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402144,
+    "Question": "Quelle sont les principes de prise en charge de ce patient?\n\nContexte : Un homme de 48 ans vous est adressé par les urgences où il avait été admis la nuit dernière pour un épisode de vertiges. Il présente dans ses antécédents une hypertension artérielle traitée. Le médecin des urgences a retrouvé des éléments faisant évoquer un grand vertige rotatoire et a conclu à un vertige périphérique. Il vous l'adresse pour prise en charge. Le patient décrit une crise de survenue brutale, sans facteur déclenchant, se prolongeant plusieurs heures avec des vomissements associés. Il dit avoir l'impression d'être sur un manège. Il se sent mieux ce matin même si il persiste des vertiges et des nausées qui empêchent une position assise ou debout prolongée.",
+    "verite_terrain": "Le traitement symptomatique est prescrit en urgence, associant anti-vertigineux, anxiolytiques et anti-émétiques. On y associe une corticothérapie à hautes doses de courte durée.",
+    "LLama_13b_chat_SFT": "Il est essentiel de réaliser une évaluation neurologique complète, de gérer les symptômes comme les nausées et les vertiges, et de rechercher d'éventuelles causes sous-jacentes.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402145,
+    "Question": "Quelle est votre principale hypothèse diagnostique?\n\nContexte : Un homme de 48 ans vous est adressé par les urgences où il avait été admis la nuit dernière pour un épisode de vertiges. Il présente dans ses antécédents une hypertension artérielle traitée. Le médecin des urgences a retrouvé des éléments faisant évoquer un grand vertige rotatoire et a conclu à un vertige périphérique. Il vous l'adresse pour prise en charge. Le patient décrit une crise de survenue brutale, sans facteur déclenchant, se prolongeant plusieurs heures avec des vomissements associés. Il dit avoir l'impression d'être sur un manège. Il se sent mieux ce matin même si il persiste des vertiges et des nausées qui empêchent une position assise ou debout prolongée. Après 3 jours de traitement intraveineux il n'y a pas de franche amélioration. Vous examinez à nouveau le patient et vous mettez en évidence : une légère dysmétrie à l'épreuve doigt-nez et un petit élargissement du polygone de sustentation. En approfondissant l'interrogatoire vous découvrez un antécédent de névrite optique rétrobulbaire il y a 3 ans",
+    "verite_terrain": "SEP",
+    "LLama_13b_chat_SFT": "Névrite optique rétrobulbaire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402146,
+    "Question": "Quel examen complémentaire demandez-vous?\n\nContexte : Un homme de 48 ans vous est adressé par les urgences où il avait été admis la nuit dernière pour un épisode de vertiges. Il présente dans ses antécédents une hypertension artérielle traitée. Le médecin des urgences a retrouvé des éléments faisant évoquer un grand vertige rotatoire et a conclu à un vertige périphérique. Il vous l'adresse pour prise en charge. Le patient décrit une crise de survenue brutale, sans facteur déclenchant, se prolongeant plusieurs heures avec des vomissements associés. Il dit avoir l'impression d'être sur un manège. Il se sent mieux ce matin même si il persiste des vertiges et des nausées qui empêchent une position assise ou debout prolongée. Après 3 jours de traitement intraveineux il n'y a pas de franche amélioration. Vous examinez à nouveau le patient et vous mettez en évidence : une légère dysmétrie à l'épreuve doigt-nez et un petit élargissement du polygone de sustentation. En approfondissant l'interrogatoire vous découvrez un antécédent de névrite optique rétrobulbaire il y a 3 ans",
+    "verite_terrain": "IRM cérébrale (recherche des hypersignaux en T2 au niveau du tronc cérébral).",
+    "LLama_13b_chat_SFT": "Un examen complémentaire à envisager est une IRM cérébrale pour évaluer la présence de lésions.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402147,
+    "Question": "En dehors des infections récidivantes, quelle conséquence de cette otite séromuqueuse chronique devez-vous rechercher par l’interrogatoire ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "On recherche une hypoacousie se traduisant par une modification du comportement et un retard de langage.",
+    "LLama_13b_chat_SFT": "Il est nécessaire de rechercher des infections récidivantes, qui pourraient indiquer une otite séromuqueuse chronique.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402148,
+    "Question": "A l’examen clinique ORL (hors interrogatoire et otoscopie), que recherchez-vous qui pourrait favoriser cette otite séro-muqueuse chronique ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "Hypertrophie des végétations adénoïdes ((rôle d'obstruction mécanique de la trompe d'Eustache et réservoir bactérien)).",
+    "LLama_13b_chat_SFT": "L'interrogatoire et l'otoscopie peuvent révéler des antécédents d'otites récurrentes, des symptômes de rhinite ou de sinusite, et des signes de mastocytose.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402149,
+    "Question": "Quel examen complémentaire demandez-vous avant toute prise de décision thérapeutique ?\n\nContexte : Un enfant de deux ans et demi est adressé pour des otites moyennes aigües récidivant toutes les 6 semaines environ. Cet enfant a déjà eu un bilan allergologique et une recherche de carence martiale, négatifs. A l’examen en dehors d’une période d’otite aigüe, vous trouvez deux tympans fins mais ternes, jaunâtres avec bulles hydroaériques.",
+    "verite_terrain": "Une audiométrie.",
+    "LLama_13b_chat_SFT": "Un examen complémentaire à réaliser est un bilan allergologique.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402150,
+    "Question": "Quels sont les signes cliniques qui vont vous orienter sur une dyspnée ORL?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique.",
+    "verite_terrain": "- bradypnée inspiratoire\n - tirage (sous-jacent à l'obstacle)\n - bruit inspiratoire (stridor, cornage)",
+    "LLama_13b_chat_SFT": "Les signes cliniques incluent l'apnée, les battements des ailes du nez, et des signes de cyanose.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402151,
+    "Question": "Il s'agit effectivement d'une dyspnée ORL. Quels sont les éléments cliniques de gravité qui doivent vous alerter s’il s'agit d'une dyspnée ORL aiguë ?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique.",
+    "verite_terrain": "durée : risque d'épuisement si la durée de la dyspnée est supérieure à une heure\n état respiratoire : \n - tachypnée superficielle supérieure à 60/minute avec disparition du tirage (amélioration trompeuse)\n - bradypnée extrême, irrégularité du rythme respiratoire, pauses respiratoires de plus de 20 secondes\n - signes d'hypercapnie : sueurs, tachycardie, HTA\n - signes d'hypoxie : cyanose, pâleur.\n association tirage intercostal, sus-sternal, sus-claviculaire et asynchronisme thoraco-abdominal\n état de conscience : somnolence, confusion, agitation.\n saturation < 85 %",
+    "LLama_13b_chat_SFT": "Les éléments cliniques de gravité incluent une saturation en oxygène inférieure à 90 %, une fréquence respiratoire supérieure à 60, et des signes de détresse respiratoire.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402152,
+    "Question": "Si ces signes existent, quel(s) traitement(s) et prise en charge prescrivez-vous ?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique.",
+    "verite_terrain": "Traitement en urgence :\n - monitoring continu du patient avec saturation\n - position assise ou demi-assise\n - oxygène au masque ou lunettes nasales\n - aérosols de Bompard : 1mg adrénaline + 2 mg soludécadron + 3 mL sérum physiologique (123 ASP)\n - corticoïde en IV ou en IM dose de 1 à 3 mg/kg\n - antibiothérapie en cas de suspicion de contexte septique\n - intubation ou trachéotomie en l'absence d'amélioration et avant épuisement.",
+    "LLama_13b_chat_SFT": "Si les signes d'insuffisance respiratoire existent, un traitement par oxygène et une prise en charge intensive sont nécessaires.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402153,
+    "Question": "Quel est votre diagnostic et sur quels arguments ?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique. La maman vous informe que l'enfant présente une toux rauque avec une voix claire et que le bruit inspiratoire est apparu il y a un mois. Il lui semble d'ailleurs qu'il s'aggrave progressivement.",
+    "verite_terrain": "Angiome sous-glottique car :\n - dyspnée inspiratoire \n - aggravation progressive survenant à 3-4 mois, concordant avec la phase de croissance observée danscette pathologie (1 à 12/15 mois)\n - toux rauque",
+    "LLama_13b_chat_SFT": "Le diagnostic est une sténose sous-glottique, basé sur les symptômes respiratoires et la progression des troubles respiratoires.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402154,
+    "Question": "Quel est le principal diagnostic différentiel ?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique. La maman vous informe que l'enfant présente une toux rauque avec une voix claire et que le bruit inspiratoire est apparu il y a un mois. Il lui semble d'ailleurs qu'il s'aggrave progressivement.",
+    "verite_terrain": "Laryngite sous-glottique.",
+    "LLama_13b_chat_SFT": "L'asthme infantile est un diagnostic différentiel important, car il peut présenter des symptômes similaires.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402155,
+    "Question": "Que devez-vous recherchez à l'inspection pour conforter votre diagnostic ?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique. La maman vous informe que l'enfant présente une toux rauque avec une voix claire et que le bruit inspiratoire est apparu il y a un mois. Il lui semble d'ailleurs qu'il s'aggrave progressivement.",
+    "verite_terrain": "Des angiomes cutanés cervico-faciaux.",
+    "LLama_13b_chat_SFT": "Il est nécessaire d'examiner l'auscultation pulmonaire pour rechercher des râles sibilants ou des crépitements, ainsi que des signes de détresse respiratoire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402156,
+    "Question": "Quel est l'examen clé pour affirmer votre diagnostic et que va t-il montrer ?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique. La maman vous informe que l'enfant présente une toux rauque avec une voix claire et que le bruit inspiratoire est apparu il y a un mois. Il lui semble d'ailleurs qu'il s'aggrave progressivement.",
+    "verite_terrain": "Endoscopie laryngo-trachéale sous anesthésie générale montrant une masse bleutée, molle, sous-glottique.",
+    "LLama_13b_chat_SFT": "L'examen clé est la radiographie thoracique, qui montrera des signes d'obstruction des voies aériennes.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402157,
+    "Question": "Quel est l'évolution naturelle de cette pathologie et quelles sont les possibilités thérapeutiques ?\n\nContexte : Vous êtes appelés aux urgences pour voir un nourrisson de 4 mois dyspnéique. La maman vous informe que l'enfant présente une toux rauque avec une voix claire et que le bruit inspiratoire est apparu il y a un mois. Il lui semble d'ailleurs qu'il s'aggrave progressivement.",
+    "verite_terrain": "L'involution est spontanée mais les poussées peuvent nécessiter une corticothérapie voire un traitement chirurgical (vaporisation au laser CO2 ou laryngoplastie). Les cas graves peuvent nécessiter une intubation ou une trachéotomie en urgence.",
+    "LLama_13b_chat_SFT": "L'évolution naturelle peut entraîner une progression de la sténose, nécessitant des interventions chirurgicales pour améliorer la fonction respiratoire.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402158,
+    "Question": "En quoi consiste l’examen clinique ORL que vous réalisez en consultation lorsque vous recherchez une lésion tumorale des VADS, en dehors d’une lésion du cavum ?\n\nContexte : Un homme de 55 ans est adressé en ORL pour une dysphagie. L’examen clinique en consultation retrouve une lésion suspecte de la langue mobile droite associée à une adénopathie sous digastrique droite (groupe IIA).",
+    "verite_terrain": "- examen à l'abaisse-langue\n - laryngoscopie indirecte au miroir (miroir laryngé avec lumière frontale, de Clar) ou au nasofibroscope\n - palpation cervicale et des aires ganglionnaires\n - un toucher bidigital d'une lésion de la cavité buccale ou de l'oropharynx est aussi utile.",
+    "LLama_13b_chat_SFT": "L'examen clinique consiste à rechercher des lésions cutanées, des ulcérations, des nodules ou des masses, ainsi qu'une adénopathie.",
+    "equivalence": "Non",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402159,
+    "Question": "Quelle est l’innervation motrice, sensitive de la langue mobile ?\n\nContexte : Un homme de 55 ans est adressé en ORL pour une dysphagie. L’examen clinique en consultation retrouve une lésion suspecte de la langue mobile droite associée à une adénopathie sous digastrique droite (groupe IIA).",
+    "verite_terrain": "Innervation motrice : \n - La langue est faite de 17 muscles tous pairs et symétriques sauf le muscle longitudinal supérieur qui est un muscle impair et médian.\n - Ils sont innervés par le nerf hypoglosse (XII), sauf le muscle stylo-glosse qui est innervé par le nerf glosso-pharyngien (IX)\n L'innervation sensitive des 2/3 antérieurs de la langue est assurée par le nerf mandibulaire (V3).\n Innervation sensorielle (gustative) de la langue : 3 nerfs\n - VII bis ou nerf intermédiaire = 2/3 antérieurs\n - IX ou nerf glossopharyngien = 1/3 postérieur\n - X ou nerf vague = vallécules et face linguale du cartilage épiglottique)",
+    "LLama_13b_chat_SFT": "L'innervation motrice de la langue mobile est assurée par le nerf hypoglosse, tandis que l'innervation sensitive est assurée par le nerf lingual.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  },
+  {
+    "id": 228402160,
+    "Question": "Quel diagnostic suspectez-vous ?\n\nContexte : Un homme de 55 ans est adressé en ORL pour une dysphagie. L’examen clinique en consultation retrouve une lésion suspecte de la langue mobile droite associée à une adénopathie sous digastrique droite (groupe IIA).",
+    "verite_terrain": "Cancer de la cavité buccale.",
+    "LLama_13b_chat_SFT": "Un carcinome de la langue mobile.",
+    "equivalence": "Oui",
+    "preference": "Vérité terrain"
+  }
+]
